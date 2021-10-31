@@ -1,0 +1,66 @@
+# 1. TODO tree
+
+高亮代码注释  [连接](https://blog.csdn.net/wf19930209/article/details/109231743)
+
+```
+"todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^)\\s*($TAGS):|^\\s*- \\[ \\])",
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "tag",
+        "done",
+        "note",
+        "PART"
+    ],
+    "todo-tree.regex.regexCaseSensitive": false,
+    "todo-tree.tree.showInExplorer": true,
+    "todo-tree.highlights.defaultHighlight": {
+        "foreground": "white",
+        "background": "yellow",
+        "icon": "check",
+        "rulerColour": "yellow",
+        "type": "tag",
+        "iconColour": "yellow"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "todo": {
+            "background": "yellow",
+            "rulerColour": "yellow",
+            "iconColour": "yellow"
+        },
+        "FIXME": {
+            "background": "red",
+            "icon": "beaker",
+            "rulerColour": "red",
+            "iconColour": "red",
+        },
+        "tag": {
+            "background": "blue",
+            "icon": "tag",
+            "rulerColour": "blue",
+            "iconColour": "blue",
+            "rulerLane": "full"
+        },
+        "done": {
+            "background": "green",
+            "icon": "issue-closed",
+            "rulerColour": "green",
+            "iconColour": "green",
+        },
+        "note": {
+            "background": "#f90",
+            "icon": "note",
+            "rulerColour": "#f90",
+            "iconColour ": "#f90"
+        },
+        "PART": {
+            "background": "#f90",
+            "icon": "note",
+            "rulerColour": "#f90",
+            "iconColour ": "#f90"
+        }
+    },
+```
+
+
+
